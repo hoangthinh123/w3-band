@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.color {
+    color: white !important;
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.mt-8 {
+    margin-top: 8px !important;
+}
+.mt-16 {
+    margin-top: 16px !important;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: unset;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    padding: 11px 16px;
+    border: none;
+}
+.pull-right {
+    float: right;
+}
+.pull-right {
+    float: right;
+}
+.col-full {
+    width: 100%;
+}
+.col-half {
+    width: 50%;
+}
+.col-third {
+    width: 33.33333%;
+}
+.text-center {
+    text-align: center !important;
+}
+.clear {
+    clear: both;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+}
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav {
+    display: inline-block;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+    list-style-type: none;
+}
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 21px;
+}
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: black;
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+#nav li:hover .subnav {
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#nav .subnav li a {
+    color: black;
+}
+#nav .arrown-down {
+    font-size: 12px;
+}
+#header .header-search {
+    float: right;
+    padding: 0px 23px;
+}
+#header .header-search:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+#header .search-icon {
+    color: white;
+    line-height: 46px;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    position: relative;
+    background: url(/asstets/img/slider/img2.jpg) top center / cover no-repeat;
+}
+
+#slider .slider-section {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 35px;
+    color: whitesmoke;
+}
+
+#slider .header-text {
+    margin: 10px 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#slider .tex-desprition {
+    margin: 15px 0;
+    font-weight: bolder;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#content .content-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 64px 16px 112px;
+}
+#content .section-heading {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading {
+    margin: 15px 0;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+}
+#content .about-text {
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#content .member-list {
+    margin-top: 48px;
+}
+
+#content .member-name {
+    margin: 15px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    height: 154px;
+    border-radius: 4px;
+}
+#content .tour-section {
+    padding: 64px 16px 0;
+    background-color: black;
+}
+.tikets-tour {
+    background-color: white;
+    float: left;
+    width: 100%;
+}
+.tour-time {
+    padding: 8px 16px;
+    text-align: left;
+    color: #757575;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.sold-out {
+    margin-left: 16px;
+    color: white;
+    padding: 3px 5px;
+    background-color: tomato;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+.sold-outs {
+    float: right;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 8px;
+    margin: -2px;
+}
+
+.place-list {
+    display: inline-block;
+    margin-top: 32px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+.place-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.place-body {
+    background-color: white;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.place-content {
+    display: inline-block;
+    margin: 15px 0;
+    font-weight: bolder;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.place-time {
+    margin: 15px 0;
+    opacity: 0.6;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+}
+
+.place-desc {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+/* contact form */
+.contact-content {
+    margin: 47px 0;
+    line-height: 1.5;
+}
+.contact-info {
+    font-size: 18px;
+}
+.contact-info i[class*="ti-"] {
+}
+.contact-form {
+    font-size: 15px;
+}
+.contact-form .form-control {
+    padding: 10px;
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.map-img img {
+    width: 100%;
+}
+
+#footer {
+    margin: 64px 16px;
+    text-align: center;
+}
+#footer .power-desr {
+    margin: 15px 0;
+}
+#footer .power-by {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .socal-icon a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer-to:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
