@@ -60,9 +60,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#main {
-}
 #header {
     height: 46px;
     background-color: black;
@@ -287,8 +284,7 @@ html {
 .contact-info {
     font-size: 18px;
 }
-.contact-info i[class*="ti-"] {
-}
+
 .contact-form {
     font-size: 15px;
 }
