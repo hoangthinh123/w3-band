@@ -124,11 +124,10 @@ html {
 }
 
 #slider {
+    margin-top: 46px;
     position: relative;
 }
 #slider .background {
-    margin-top: 46px;
-    height: 100%;
     width: 100%;
 }
 
